@@ -1,6 +1,7 @@
 import React from 'react';
 import image from "../../src/assets/logoA. removebg-preview (1).png"
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom/dist';
 
 
 const SignUp = () => {
