@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 const SignUp = () => {
   return (
-    <div className="min-h-screen bg-gray-800 flex flex-col justify-center items-center px-6">
+    <div className="min-h-screen bg-gray-800 flex flex-col justify-center items-center px-2">
       <div className="w-full max-w-md">
         <form className="bg-gray-700 shadow-lg rounded px-8  pb-8 mb-4 mt-10">
 
@@ -105,7 +105,7 @@ const SignUp = () => {
           </div>
         </form>
         <p className="text-center text-white text-xs mb-10">
-          Already have an account? <a href="/signin" className="text-blue-500 hover:text-blue-300">Sign in</a>
+          Already have an account? <Link to="/signin" className="text-blue-500 hover:text-blue-300">Sign in</Link>
         </p>
       </div>
     </div>

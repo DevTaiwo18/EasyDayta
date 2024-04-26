@@ -1,6 +1,10 @@
 import React from 'react';
 import "../../src/App.css";
 import { Link } from 'react-router-dom';
+import dataImage from '../../src/assets/data.jpg';
+import airtimeImage from '../../src/assets/airtime.jpg';
+import bulksmsImage from '../../src/assets/bulksms.jpg';
+import paybillsImage from '../../src/assets/paybills.jpg';
 
 const FeatureCard = ({ image, title, description }) => {
     return (
@@ -9,34 +13,31 @@ const FeatureCard = ({ image, title, description }) => {
             <h3 className="font-bold text-lg mb-4 text-blue-500">{title}</h3>
             <p className="text-gray-600 text-sm">{description}</p>
         </div>
-
-
     );
 };
 
 const Features = () => {
     const featureData = [
         {
-            image: '/src/assets/data.jpg',
+            image: dataImage,
             title: 'Buy cheap Data Online',
             description: 'Buy cheap mobile data at an affordable rate.',
         },
         {
-            image: '/src/assets/airtime.jpg',
+            image: airtimeImage,
             title: 'Buy Airtime',
             description: 'Get up to 5% discount instantly when you purchase airtime.',
         },
         {
-            image: '/src/assets/bulksms.jpg',
+            image: bulksmsImage,
             title: 'Send Bulk SMS',
             description: 'Send BulkSMS to any DND number. Fast and instant delivery.',
         },
         {
-            image: '/src/assets/paybills.jpg',
-            title: 'Cable TV,  Subscriptions',
+            image: paybillsImage,
+            title: 'Cable TV, Subscriptions',
             description: 'Pay Cable TV bills at home and make commission.',
         }
-
     ];
 
     return (

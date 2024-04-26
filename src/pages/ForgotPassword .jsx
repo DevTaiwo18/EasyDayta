@@ -5,7 +5,7 @@ import image from "../../src/assets/logoA. removebg-preview (1).png"
 
 const ForgotPassword = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-800 px-5 md:px-0">
+        <div className="min-h-screen flex items-center justify-center bg-gray-800 px-2 md:px-0">
             <div className="max-w-md w-full space-y-8">
                 <div>
                     <NavLink className="flex justify-center items-center" to="/">
