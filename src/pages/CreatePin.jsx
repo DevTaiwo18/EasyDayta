@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import image from "../../src/assets/logoA-removebg-preview.png";
+import image from "../../src/assets/logoA. removebg-preview (1).png"
+
 
 const CreatePin = () => {
   const pinInputRefs = [
@@ -26,7 +27,7 @@ const CreatePin = () => {
       <div className="max-w-md w-full space-y-8">
         <div>
           <NavLink className="flex justify-center items-center" to="/">
-            <img src={image} alt="QuickBuy Logo" className="w-32 h-32" />
+            <img src={image} alt="EasyDayta Logo" className="w-32 h-32" />
           </NavLink>
           <h2 className="text-center text-3xl font-extrabold text-white">
             Create a PIN

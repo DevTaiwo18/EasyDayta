@@ -34,7 +34,7 @@ const Service = () => {
     {
       icon: faPhoneVolume,
       title: 'AIRTIME TOP UP',
-      description: 'Making an online recharge has become very easy and safe on QUICKBUY.',
+      description: 'Making an online recharge has become very easy and safe on EasyDayta.',
     },
     {
       icon: faSms,

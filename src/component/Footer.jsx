@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import image from "../../src/assets/logoA-removebg-preview.png"
+import image from "../../src/assets/logoA. removebg-preview (1).png"
 
 const Footer = () => {
     return (

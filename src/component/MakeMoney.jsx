@@ -12,7 +12,7 @@ const MobileBankingSection = () => {
             MOBILE BANKING
           </h2>
           <h2 className="h222  mb-1">
-            QUICK BUY Business in Nigeria and
+            EasyDayta Business in Nigeria and
           </h2>
           <h2 className="h222 mb-4">
             Data Reselling

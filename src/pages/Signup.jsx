@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "../../src/assets/logoA-removebg-preview.png"
+import image from "../../src/assets/logoA. removebg-preview (1).png"
 import { NavLink } from 'react-router-dom';
 
 

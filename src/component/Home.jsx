@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="custom-bg bg-blue-500 h-dvh flex flex-col justify-center text-white pl-5 md:pl-20">
             <h1 className="text-2xl sm:text-4xl font-bold mb-2">Welcome To</h1>
-            <h1 className="text-2xl sm:text-4xl font-bold mb-8">QUICK BUY</h1>
+            <h1 className="text-2xl sm:text-4xl font-bold mb-8">EasyDayta</h1>
             <p className="mb-8  font-medium">
                 Nigeria's topmost enterprise solution to your telecom needs. <br />
                 Airtime, DATA, Cable Subscription (DSTV, GOTV, Startime), etc.

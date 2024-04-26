@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logoImage from '../../src/assets/logoA-removebg-preview.png';
+import logoImage from '../../src/assets/logoA. removebg-preview (1).png';
 
 const Signin = () => {
   return (
@@ -9,7 +9,7 @@ const Signin = () => {
         <form className="bg-gray-700 shadow-lg rounded px-8  pb-8 mb-4">
 
           <NavLink className="flex justify-center items-center" to="/">
-            <img src={logoImage} alt="QuickBuy Logo" className="w-32 h-32" />
+            <img src={logoImage} alt="EasyDayta Logo" className="w-32 h-32" />
           </NavLink>
           <h2 className="mb-4 text-3xl font-bold text-center text-white">Login</h2>
           <div className="mb-4">
