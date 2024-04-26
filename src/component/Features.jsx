@@ -17,22 +17,22 @@ const FeatureCard = ({ image, title, description }) => {
 const Features = () => {
     const featureData = [
         {
-            image: '/src/assets/data.jpg',
+            image: '../../src/assets/data.jpg',
             title: 'Buy cheap Data Online',
             description: 'Buy cheap mobile data at an affordable rate.',
         },
         {
-            image: '/src/assets/airtime.jpg',
+            image: '../../src/assets/airtime.jpg',
             title: 'Buy Airtime',
             description: 'Get up to 5% discount instantly when you purchase airtime.',
         },
         {
-            image: '/src/assets/bulksms.jpg',
+            image: '../../src/assets/bulksms.jpg',
             title: 'Send Bulk SMS',
             description: 'Send BulkSMS to any DND number. Fast and instant delivery.',
         },
         {
-            image: '/src/assets/paybills.jpg',
+            image: '../../src/assets/paybills.jpg',
             title: 'Cable TV,  Subscriptions',
             description: 'Pay Cable TV bills at home and make commission.',
         }
