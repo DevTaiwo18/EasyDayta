@@ -1,6 +1,7 @@
 import React from 'react';
-import serviceImage from '../../src/assets/about.jpg'; 
+import serviceImage from '../../src/assets/about.jpg';
 import "../../src/App.css";
+import { Link } from 'react-router-dom';
 
 const Aboutus = () => {
   return (
@@ -23,8 +24,10 @@ const Aboutus = () => {
         </p>
 
         <button className="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-6 rounded-lg transition duration-300">
+          <Link to={"/signin"}>
             Get Started
-          </button>
+          </Link>
+        </button>
       </div>
       <div className="md:w-1/2 w-full p-4">
         <img src={serviceImage} alt="Services" className="w-full h-auto" />

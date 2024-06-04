@@ -7,7 +7,6 @@ const Signin = () => {
     <div className="min-h-screen bg-gray-800 flex flex-col justify-center items-center px-2">
       <div className="w-full max-w-md">
         <form className="bg-gray-700 shadow-lg rounded px-8  pb-8 mb-4">
-
           <NavLink className="flex justify-center items-center" to="/">
             <img src={logoImage} alt="EasyDayta Logo" className="w-32 h-32" />
           </NavLink>
